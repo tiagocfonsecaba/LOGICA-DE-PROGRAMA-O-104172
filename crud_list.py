@@ -31,14 +31,13 @@ while True:
                 lista_produtos.append(nome_produto)
                 print('Produto cadastrado com sucesso!')
         case 2:
-            # READ (LER/CONSULTAR/BUSCAR)
+            
             print('\n== PRODUTOS NO ESTOQUE ==')
             for produto in lista_produtos:
                 print(f'- {produto}')
             print(f'Total: {len(lista_produtos)}')
 
         case 3:
-            #UPDATE (ATUALIZAR)
             print('\n== ATUALIZAR PRODUTO ==')
             nome = input('Qual produto deseja atualizar?: ')
             if nome in lista_produtos:
