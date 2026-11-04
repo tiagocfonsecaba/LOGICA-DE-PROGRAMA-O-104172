@@ -34,10 +34,10 @@ while True:
 
             case 2:
                 
-                print('\n== PACIENTES CADASTRADOS==')
+                print('\n== PACIENTES CADASTRADOS ==')
                 for paciente in lista_paciente:
                     
-                    print (f'- {paciente},{sobrenome_paciente}')
+                    print (f'- {paciente}')
                 print(f'Total: {len(lista_paciente)}')
 
                 input("Pressione uma tecla para continuar")
@@ -53,7 +53,7 @@ while True:
                     print('Paciente atualizado com sucesso!')
 
             case 4:
-                    # Delete (REMOVER)
+                    
                     print('\n== REMOVER CADASTRO  ==')
                     nome = input('Qual paciente deseja remover?: ')
                     if nome in lista_paciente:
